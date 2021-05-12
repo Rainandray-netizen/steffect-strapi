@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "shipping_and_returns",
+  "info": {
+    "name": "Shipping & Returns"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "shippingText": {
+      "type": "text"
+    },
+    "returnsText": {
+      "type": "text"
+    }
+  }
+}

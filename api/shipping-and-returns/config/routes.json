@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shipping-and-returns",
+      "handler": "shipping-and-returns.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shipping-and-returns",
+      "handler": "shipping-and-returns.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shipping-and-returns",
+      "handler": "shipping-and-returns.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
